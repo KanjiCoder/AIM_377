@@ -43467,6 +43467,10 @@ g25_set ||10 |11 |12 |13 |14 ||  "grid cell indexes" and       :   [163][087]
           :   : Array buffer you get back from             ::::  // [377]
           :   : UPNG_library needs to be used in           ::::  // [377]
           :   : Uint8Array constructor.                    ::::  // [377]
+          :NEXT: Storing .PNG file in Uint8Array is        ::::  // [377]
+          :    : probably corrupting it. We can fix        ::::  // [377]
+          :    : this but have to be more careful          ::::  // [377]
+          :    : about how we handle[ trashme_binarra ]    ::::  // [377]
 
 *** ******************************************************** **/
 //:============================:THIS_COMMITS_DELTA_NOTE:[085]://
